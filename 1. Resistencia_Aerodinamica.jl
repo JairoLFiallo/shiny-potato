@@ -63,4 +63,4 @@ l = @layout [a b; c]
 plot_final = plot(plot_frio, plot_caliente, plot_banco, layout=l, size=(1920, 850), dpi=1000)
 
 display(plot_final)
-savefig(plot_final, "grafica_combinada_presentacion.pdf")
+savefig(plot_final, "grafica_combinada.pdf")
